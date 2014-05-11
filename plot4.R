@@ -61,6 +61,9 @@ tail(Data1[,c(1,2,10)])
 #Create Plot 4
 ##################
 
+#Get English names as x axis
+Sys.setlocale(locale = "C")
+
 
 png(file="plot4.png",width = 480, height = 480)
 
@@ -91,14 +94,3 @@ with(Data1,{
     )
 
 dev.off()
-
-
-
-# You will see Chinese characters
-# at the bottom of each figures in plot4.png I created.
-# the left character means Thu
-# the middle  character means Fri
-# the right  character means Sat
-#
-# These are not errors! :)
-
