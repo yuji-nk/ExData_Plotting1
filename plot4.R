@@ -94,7 +94,8 @@ dev.off()
 
 
 
-# You will see Chinese characters at the bottom of plot2.png I created.
+# You will see Chinese characters
+# at the bottom of each figures in plot4.png I created.
 # the left character means Thu
 # the middle  character means Fri
 # the right  character means Sat
